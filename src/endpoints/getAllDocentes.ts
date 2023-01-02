@@ -10,7 +10,9 @@ export default async function getAllDocentes(
 
     try {
 
-        const docentes: docente[] = await connection("docente")
+        const name = req.query
+
+        const docentes: docente[] = await connection("DOCENTE")
 
         res.send(docentes)
     } catch (error) {
