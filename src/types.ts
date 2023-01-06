@@ -1,4 +1,7 @@
-
+export enum TYPE_CLASS{
+    INTEGRAL = "integral",
+    NOTURNA = "noturna"
+}
 
 export type docente = {
     id: number,
@@ -14,12 +17,12 @@ export type turma = {
     estudantes: string,
     modulo: number
 };
-export type estudantes = {
+export type estudante = {
     id: number,
     nome: string,
     email: string,
     data_nasc: number,
-    hobbie_id: number,
+    turma_id: number,
 };
 
 //id, nome, email, data de nascimento e os principais hobbies dele. estudandtes
