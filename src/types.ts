@@ -11,14 +11,14 @@ export type turma = {
     id: number,
     nome: string,
     docentes: number,
-    estudantes: string,
+    estudantes: number,
     modulo: number
 };
 export type estudantes = {
     id: number,
     nome: string,
     email: string,
-    data_nasc: number,
+    data_nasc: string,
     hobbie_id: number,
 };
 
