@@ -1,2 +1,13 @@
-### 
+GET http://localhost:3003/estudante
 
+###
+GET http://localhost:3003/docente
+
+###
+GET http://localhost:3003/turma
+
+###
+PUT http://localhost:3003/estudante
+
+###
+PUT http://localhost:3003/docente
