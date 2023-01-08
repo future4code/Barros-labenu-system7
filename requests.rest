@@ -1,6 +1,2 @@
 ### 
-GET http://localhost:3003/DOCENTE
-### 
-GET http://localhost:3003/TURMA
-###
-GET http://localhost:3003/ESTUDANTES
+
