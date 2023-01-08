@@ -1,8 +1,8 @@
 import { Request,Response } from "express";
 import connection from "../connection";
-import { turma } from '../types';
+import { estudantes } from "../types";
 
-export default async function getAllTurma(
+export default async function getAllEstudantes(
     req:Request,
     res:Response
 ):Promise <void> {
@@ -11,9 +11,9 @@ export default async function getAllTurma(
 
         const name = req.query
 
-        const turma : turma[] = await connection("Turma")
+        const estudante : estudantes[] = await connection("Estudantes")
 
-        res.send(turma)
+        res.send(estudante)
     } catch (error) {
         res.status(500).send("Unexpected server error")
     }
