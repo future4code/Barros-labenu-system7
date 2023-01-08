@@ -1,6 +1,3 @@
-import { docente} from "./types";
-import { turma } from "./types";
-import { estudantes } from "./types";
 
 
 export const docentes: docente[] = [
@@ -23,3 +20,4 @@ export const docentes: docente[] = [
         data_nasc: 1980-0o3-0o7,
         turma_id: 0o3
     }
+
