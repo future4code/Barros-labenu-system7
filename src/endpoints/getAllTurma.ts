@@ -1,6 +1,7 @@
 import { Request,Response } from "express";
 import connection from "../connection";
-import { turma } from '../types';
+import { turma } from "../types";
+
 
 export default async function getAllTurma(
     req:Request,
